@@ -1,4 +1,4 @@
-const mongoose = require('mongoose');
+const mongoose = require('mongoose')
 
 const pokemonCardSchema = new mongoose.Schema({
     name: { type: String, required: true },
@@ -6,6 +6,7 @@ const pokemonCardSchema = new mongoose.Schema({
     subtypes: [{ type: String }],
     level: { type: String },
     hp: { type: String },
+    rules: [{ type: String }],
     types: [{ type: String }],
     evolvesFrom: { type: String },
     abilities: [{

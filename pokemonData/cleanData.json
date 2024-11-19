@@ -3129,6 +3129,9 @@
     {
         "name": "Computer Search",
         "supertype": "Trainer",
+        "rules": [
+            "Discard 2 of the other cards from your hand in order to search your deck for any card and put it into your hand. Shuffle your deck afterward."
+        ],
         "rarity": "Rare",
         "images": "https://images.pokemontcg.io/base1/71_hires.png",
         "set": "Base"
@@ -3173,6 +3176,9 @@
     {
         "name": "Devolution Spray",
         "supertype": "Trainer",
+        "rules": [
+            "Choose 1 of your own Pokémon in play and a Stage of Evolution. Discard all Evolution cards of that Stage or higher attached to that Pokémon. That Pokémon is no longer Asleep, Confused, Paralyzed, Poisoned, or anything else that might be the result of an attack (just as if you had evolved it)."
+        ],
         "rarity": "Rare",
         "images": "https://images.pokemontcg.io/base1/72_hires.png",
         "set": "Base"
@@ -3181,6 +3187,9 @@
         "name": "Clefairy Doll",
         "supertype": "Trainer",
         "hp": "10",
+        "rules": [
+            "Play Clefairy Doll as if it were a Basic Pokémon. While in play, Clefairy Doll counts a a Pokémon (instead of a Trainer card). Clefairy Doll has no attacks, can't retreat, and can't be Asleep, Confused, Paralyzed, or Poisoned. If Clefairy Doll is Knocked Out, it doesn't count as a Knocked Out Pokémon. At any time during your turn before your attack, you may discard Clefairy Doll."
+        ],
         "rarity": "Rare",
         "images": "https://images.pokemontcg.io/base1/70_hires.png",
         "set": "Base"
@@ -3188,6 +3197,9 @@
     {
         "name": "Item Finder",
         "supertype": "Trainer",
+        "rules": [
+            "Discard 2 of the other cards from your hand in order to put a Trainer card from your discard pile into your hand."
+        ],
         "rarity": "Rare",
         "images": "https://images.pokemontcg.io/base1/74_hires.png",
         "set": "Base"
@@ -3195,6 +3207,9 @@
     {
         "name": "Impostor Professor Oak",
         "supertype": "Trainer",
+        "rules": [
+            "Your opponent shuffles his or her hand into his or her deck, then draws 7 cards."
+        ],
         "rarity": "Rare",
         "images": "https://images.pokemontcg.io/base1/73_hires.png",
         "set": "Base"
@@ -3202,6 +3217,9 @@
     {
         "name": "Pokémon Breeder",
         "supertype": "Trainer",
+        "rules": [
+            "Put a Stage 2 Evolution card from your hand on the matching Basic Pokémon. You can only play this card when you would be allowed to evolve that Pokémon anyway."
+        ],
         "rarity": "Rare",
         "images": "https://images.pokemontcg.io/base1/76_hires.png",
         "set": "Base"
@@ -3209,6 +3227,9 @@
     {
         "name": "Lass",
         "supertype": "Trainer",
+        "rules": [
+            "You and your opponent show each other your hands, then shuffle all the Trainer cards from your hands into your decks."
+        ],
         "rarity": "Rare",
         "images": "https://images.pokemontcg.io/base1/75_hires.png",
         "set": "Base"
@@ -3216,6 +3237,9 @@
     {
         "name": "Pokémon Trader",
         "supertype": "Trainer",
+        "rules": [
+            "Trade 1 of the Basic Pokémon or Evolution cards in your hand for 1 of the Basic Pokémon or Evolution cards from your deck. Show both cards to your opponent. Shuffle your deck afterward."
+        ],
         "rarity": "Rare",
         "images": "https://images.pokemontcg.io/base1/77_hires.png",
         "set": "Base"
@@ -3223,6 +3247,9 @@
     {
         "name": "Scoop Up",
         "supertype": "Trainer",
+        "rules": [
+            "Choose 1 of your Pokémon in play and return its Basic Pokémon card to your hand. (Discard all cards attached to that card.)"
+        ],
         "rarity": "Rare",
         "images": "https://images.pokemontcg.io/base1/78_hires.png",
         "set": "Base"
@@ -3230,6 +3257,9 @@
     {
         "name": "Super Energy Removal",
         "supertype": "Trainer",
+        "rules": [
+            "Discard 1 Energy card attached to 1 of your Pokémon in order to choose 1 of your opponent's Pokémon and up to 2 Energy cards attached to it. Discard those Energy cards."
+        ],
         "rarity": "Rare",
         "images": "https://images.pokemontcg.io/base1/79_hires.png",
         "set": "Base"
@@ -3237,6 +3267,9 @@
     {
         "name": "Energy Retrieval",
         "supertype": "Trainer",
+        "rules": [
+            "Trade 1 of the other cards in your hand for up to 2 basic Energy cards from your discard pile."
+        ],
         "rarity": "Uncommon",
         "images": "https://images.pokemontcg.io/base1/81_hires.png",
         "set": "Base"
@@ -3244,6 +3277,9 @@
     {
         "name": "Maintenance",
         "supertype": "Trainer",
+        "rules": [
+            "Shuffle 2 of the other cards from your hand into your deck in order to draw a card."
+        ],
         "rarity": "Uncommon",
         "images": "https://images.pokemontcg.io/base1/83_hires.png",
         "set": "Base"
@@ -3251,6 +3287,9 @@
     {
         "name": "Full Heal",
         "supertype": "Trainer",
+        "rules": [
+            "Your Active Pokémon is no longer Asleep, Confused, Paralyzed, or Poisoned."
+        ],
         "rarity": "Uncommon",
         "images": "https://images.pokemontcg.io/base1/82_hires.png",
         "set": "Base"
@@ -3258,6 +3297,9 @@
     {
         "name": "Defender",
         "supertype": "Trainer",
+        "rules": [
+            "Attach Defender to 1 of your Pokémon. At the end of your opponent's next turn, discard Defender. Damage done to that Pokémon by attacks is reduced by 20 (after applying Weakness and Resistance)."
+        ],
         "rarity": "Uncommon",
         "images": "https://images.pokemontcg.io/base1/80_hires.png",
         "set": "Base"
@@ -3265,6 +3307,9 @@
     {
         "name": "PlusPower",
         "supertype": "Trainer",
+        "rules": [
+            "Attach PlusPower to your Active Pokémon. At the end of your turn, discard PlusPower. If this Pokémon's attack does damage to the Defending Pokémon (after applying Weakness and Resistance), the attack does 10 more damage to the Defending Pokémon."
+        ],
         "rarity": "Uncommon",
         "images": "https://images.pokemontcg.io/base1/84_hires.png",
         "set": "Base"
@@ -3272,6 +3317,9 @@
     {
         "name": "Pokémon Center",
         "supertype": "Trainer",
+        "rules": [
+            "Remove all damage counters from all of your own Pokémon with damage counters on them, then discard all Energy cards attached to those Pokémon."
+        ],
         "rarity": "Uncommon",
         "images": "https://images.pokemontcg.io/base1/85_hires.png",
         "set": "Base"
@@ -3279,6 +3327,9 @@
     {
         "name": "Pokédex",
         "supertype": "Trainer",
+        "rules": [
+            "Look at up to 5 cards from the top of your deck and rearrange them as you like."
+        ],
         "rarity": "Uncommon",
         "images": "https://images.pokemontcg.io/base1/87_hires.png",
         "set": "Base"
@@ -3286,6 +3337,9 @@
     {
         "name": "Pokémon Flute",
         "supertype": "Trainer",
+        "rules": [
+            "Choose 1 Basic Pokémon card from your opponent's discard pile and put it onto his or her Bench. (You can't play Pokémon Flute if your opponent's Bench is full.)"
+        ],
         "rarity": "Uncommon",
         "images": "https://images.pokemontcg.io/base1/86_hires.png",
         "set": "Base"
@@ -3293,6 +3347,9 @@
     {
         "name": "Professor Oak",
         "supertype": "Trainer",
+        "rules": [
+            "Discard your hand, then draw 7 cards."
+        ],
         "rarity": "Uncommon",
         "images": "https://images.pokemontcg.io/base1/88_hires.png",
         "set": "Base"
@@ -3300,6 +3357,9 @@
     {
         "name": "Revive",
         "supertype": "Trainer",
+        "rules": [
+            "Put 1 Basic Pokémon card from your discard pile onto your Bench. Put damage counters on that Pokémon equal to half its HP (rounded down to the nearest 10). (You can't play Revive if your Bench is full.)"
+        ],
         "rarity": "Uncommon",
         "images": "https://images.pokemontcg.io/base1/89_hires.png",
         "set": "Base"
@@ -3307,6 +3367,9 @@
     {
         "name": "Super Potion",
         "supertype": "Trainer",
+        "rules": [
+            "Discard 1 Energy card attached to your own Pokémon in order to remove up to 4 damage counters from that Pokémon."
+        ],
         "rarity": "Uncommon",
         "images": "https://images.pokemontcg.io/base1/90_hires.png",
         "set": "Base"
@@ -3314,6 +3377,9 @@
     {
         "name": "Bill",
         "supertype": "Trainer",
+        "rules": [
+            "Draw 2 cards."
+        ],
         "rarity": "Common",
         "images": "https://images.pokemontcg.io/base1/91_hires.png",
         "set": "Base"
@@ -3321,6 +3387,9 @@
     {
         "name": "Energy Removal",
         "supertype": "Trainer",
+        "rules": [
+            "Choose 1 Energy card attached to 1 of your opponent's Pokémon and discard it."
+        ],
         "rarity": "Common",
         "images": "https://images.pokemontcg.io/base1/92_hires.png",
         "set": "Base"
@@ -3328,6 +3397,9 @@
     {
         "name": "Switch",
         "supertype": "Trainer",
+        "rules": [
+            "Switch 1 of your own Benched Pokémon with your Active Pokémon."
+        ],
         "rarity": "Common",
         "images": "https://images.pokemontcg.io/base1/95_hires.png",
         "set": "Base"
@@ -3335,6 +3407,9 @@
     {
         "name": "Gust of Wind",
         "supertype": "Trainer",
+        "rules": [
+            "Choose 1 of your opponent's Benched Pokémon and switch it with his or her Active Pokémon."
+        ],
         "rarity": "Common",
         "images": "https://images.pokemontcg.io/base1/93_hires.png",
         "set": "Base"
@@ -3342,6 +3417,9 @@
     {
         "name": "Potion",
         "supertype": "Trainer",
+        "rules": [
+            "Remove up to 2 damage counters from 1 of your Pokémon."
+        ],
         "rarity": "Common",
         "images": "https://images.pokemontcg.io/base1/94_hires.png",
         "set": "Base"
@@ -3349,6 +3427,9 @@
     {
         "name": "Double Colorless Energy",
         "supertype": "Energy",
+        "rules": [
+            "Provides ColorlessColorless energy.\nDoesn't count as a basic Energy card."
+        ],
         "rarity": "Uncommon",
         "images": "https://images.pokemontcg.io/base1/96_hires.png",
         "set": "Base"
@@ -6389,6 +6470,9 @@
     {
         "name": "Poké Ball",
         "supertype": "Trainer",
+        "rules": [
+            "Flip a coin. If heads, you may search your deck for any Basic Pokémon or Evolution card. Show that card to your opponent, then put it into your hand. Shuffle your deck afterward."
+        ],
         "rarity": "Common",
         "images": "https://images.pokemontcg.io/base2/64_hires.png",
         "set": "Jungle"
@@ -8975,6 +9059,9 @@
     {
         "name": "Mr. Fuji",
         "supertype": "Trainer",
+        "rules": [
+            "Choose a Pokémon on your Bench. Shuffle it and any cards attached to it into your deck."
+        ],
         "rarity": "Uncommon",
         "images": "https://images.pokemontcg.io/base3/58_hires.png",
         "set": "Fossil"
@@ -8983,6 +9070,9 @@
         "name": "Mysterious Fossil",
         "supertype": "Trainer",
         "hp": "10",
+        "rules": [
+            "Play Mysterious Fossil as if it were a Basic Pokémon. While in play, Mysterious Fossil counts as a Pokémon (instead of a Trainer card). Mysterious Fossil has no attacks, can't retreat, and can't be Asleep, Confused, Paralyzed, or Poisoned. If Mysterious Fossil is Knocked Out, it doesn't count as a Knocked Out Pokémon. (Discard it anyway.) At any time during your turn before your attack, you may discard Mysterious Fossil from play."
+        ],
         "rarity": "Common",
         "images": "https://images.pokemontcg.io/base3/62_hires.png",
         "set": "Fossil"
@@ -8990,6 +9080,9 @@
     {
         "name": "Energy Search",
         "supertype": "Trainer",
+        "rules": [
+            "Search your deck for a basic Energy card and put it into your hand. Shuffle your deck afterward."
+        ],
         "rarity": "Common",
         "images": "https://images.pokemontcg.io/base3/59_hires.png",
         "set": "Fossil"
@@ -8997,6 +9090,9 @@
     {
         "name": "Gambler",
         "supertype": "Trainer",
+        "rules": [
+            "Shuffle your hand into your deck. Flip a coin. If heads, draw 8 cards. If tails, draw 1 card."
+        ],
         "rarity": "Common",
         "images": "https://images.pokemontcg.io/base3/60_hires.png",
         "set": "Fossil"
@@ -9004,6 +9100,9 @@
     {
         "name": "Recycle",
         "supertype": "Trainer",
+        "rules": [
+            "Flip a coin. If heads, put a card in your discard pile on top of your deck."
+        ],
         "rarity": "Common",
         "images": "https://images.pokemontcg.io/base3/61_hires.png",
         "set": "Fossil"
@@ -13646,6 +13745,9 @@
     {
         "name": "Computer Search",
         "supertype": "Trainer",
+        "rules": [
+            "Discard 2 of the other cards from your hand in order to search your deck for any card and put it into your hand. Shuffle your deck afterward."
+        ],
         "rarity": "Rare",
         "images": "https://images.pokemontcg.io/base4/101_hires.png",
         "set": "Base Set 2"
@@ -13653,6 +13755,9 @@
     {
         "name": "Imposter Professor Oak",
         "supertype": "Trainer",
+        "rules": [
+            "Your opponent shuffles his or her hand into his or her deck, then draws 7 cards."
+        ],
         "rarity": "Rare",
         "images": "https://images.pokemontcg.io/base4/102_hires.png",
         "set": "Base Set 2"
@@ -13660,6 +13765,9 @@
     {
         "name": "Item Finder",
         "supertype": "Trainer",
+        "rules": [
+            "Discard 2 of the other cards from your hand in order to put a Trainer card from your discard pile into your hand."
+        ],
         "rarity": "Rare",
         "images": "https://images.pokemontcg.io/base4/103_hires.png",
         "set": "Base Set 2"
@@ -13667,6 +13775,9 @@
     {
         "name": "Lass",
         "supertype": "Trainer",
+        "rules": [
+            "You and your opponent show each other your hands, then shuffle all the Trainer cards from your hands into your decks."
+        ],
         "rarity": "Rare",
         "images": "https://images.pokemontcg.io/base4/104_hires.png",
         "set": "Base Set 2"
@@ -13674,6 +13785,9 @@
     {
         "name": "Pokémon Breeder",
         "supertype": "Trainer",
+        "rules": [
+            "Put a Stage 2 Evolution card from your hand on the matching Basic Pokémon. You can only play this card when you would be allowed to evolve that Pokémon anyway."
+        ],
         "rarity": "Rare",
         "images": "https://images.pokemontcg.io/base4/105_hires.png",
         "set": "Base Set 2"
@@ -13681,6 +13795,9 @@
     {
         "name": "Pokémon Trader",
         "supertype": "Trainer",
+        "rules": [
+            "Trade 1 of the Basic Pokémon or Evolution cards in your hand for 1 of the Basic Pokémon or Evolution cards from your deck. Show both cards to your opponent. Shuffle your deck afterward."
+        ],
         "rarity": "Rare",
         "images": "https://images.pokemontcg.io/base4/106_hires.png",
         "set": "Base Set 2"
@@ -13688,6 +13805,9 @@
     {
         "name": "Scoop Up",
         "supertype": "Trainer",
+        "rules": [
+            "Choose 1 of your Pokémon in play and return its Basic Pokémon card to your hand. (Discard all cards attached to that card.)"
+        ],
         "rarity": "Rare",
         "images": "https://images.pokemontcg.io/base4/107_hires.png",
         "set": "Base Set 2"
@@ -13695,6 +13815,9 @@
     {
         "name": "Super Energy Removal",
         "supertype": "Trainer",
+        "rules": [
+            "Discard 1 Energy card attached to 1 of your own Pokémon in order to choose 1 of your opponent's Pokémon and up to 2 Energy cards attached to it. Discard those Energy cards."
+        ],
         "rarity": "Rare",
         "images": "https://images.pokemontcg.io/base4/108_hires.png",
         "set": "Base Set 2"
@@ -13702,6 +13825,9 @@
     {
         "name": "Energy Retrieval",
         "supertype": "Trainer",
+        "rules": [
+            "Trade 1 of the other cards in your hand for up to 2 basic Energy cards from your discard pile."
+        ],
         "rarity": "Uncommon",
         "images": "https://images.pokemontcg.io/base4/110_hires.png",
         "set": "Base Set 2"
@@ -13709,6 +13835,9 @@
     {
         "name": "Defender",
         "supertype": "Trainer",
+        "rules": [
+            "Attach Defender to 1 of your Pokémon. At the end of your opponent's next turn, discard Defender. Damage done to that Pokémon by attacks is reduced by 20 (after applying Weakness and Resistance)."
+        ],
         "rarity": "Uncommon",
         "images": "https://images.pokemontcg.io/base4/109_hires.png",
         "set": "Base Set 2"
@@ -13716,6 +13845,9 @@
     {
         "name": "Maintenance",
         "supertype": "Trainer",
+        "rules": [
+            "Shuffle 2 of the other cards from your hand into your deck in order to draw a card."
+        ],
         "rarity": "Uncommon",
         "images": "https://images.pokemontcg.io/base4/112_hires.png",
         "set": "Base Set 2"
@@ -13723,6 +13855,9 @@
     {
         "name": "PlusPower",
         "supertype": "Trainer",
+        "rules": [
+            "Attach PlusPower to your Active Pokémon. At the end of your turn, discard PlusPower. If this Pokémon's attack does damage to the Defending Pokémon (after applying Weakness and Resistance), the attack does 10 more damage to the Defending Pokémon."
+        ],
         "rarity": "Uncommon",
         "images": "https://images.pokemontcg.io/base4/113_hires.png",
         "set": "Base Set 2"
@@ -13730,6 +13865,9 @@
     {
         "name": "Full Heal",
         "supertype": "Trainer",
+        "rules": [
+            "Your Active Pokémon is no longer Asleep, Confused, Paralyzed, or Poisoned."
+        ],
         "rarity": "Uncommon",
         "images": "https://images.pokemontcg.io/base4/111_hires.png",
         "set": "Base Set 2"
@@ -13737,6 +13875,9 @@
     {
         "name": "Pokémon Center",
         "supertype": "Trainer",
+        "rules": [
+            "Remove all damage counters from all of your own Pokémon with damage counters on them, then discard all Energy cards attached to those Pokémon."
+        ],
         "rarity": "Uncommon",
         "images": "https://images.pokemontcg.io/base4/114_hires.png",
         "set": "Base Set 2"
@@ -13744,6 +13885,9 @@
     {
         "name": "Pokédex",
         "supertype": "Trainer",
+        "rules": [
+            "Look at up to 5 cards from the top of your deck and rearrange them as you like."
+        ],
         "rarity": "Uncommon",
         "images": "https://images.pokemontcg.io/base4/115_hires.png",
         "set": "Base Set 2"
@@ -13751,6 +13895,9 @@
     {
         "name": "Professor Oak",
         "supertype": "Trainer",
+        "rules": [
+            "Discard your hand, then draw 7 cards."
+        ],
         "rarity": "Uncommon",
         "images": "https://images.pokemontcg.io/base4/116_hires.png",
         "set": "Base Set 2"
@@ -13758,6 +13905,9 @@
     {
         "name": "Super Potion",
         "supertype": "Trainer",
+        "rules": [
+            "Discard 1 Energy card attached to 1 of your own Pokémon in order to remove up to 4 damage counters from that Pokémon."
+        ],
         "rarity": "Uncommon",
         "images": "https://images.pokemontcg.io/base4/117_hires.png",
         "set": "Base Set 2"
@@ -13765,6 +13915,9 @@
     {
         "name": "Potion",
         "supertype": "Trainer",
+        "rules": [
+            "Remove up to 2 damage counters from 1 of your Pokémon."
+        ],
         "rarity": "Common",
         "images": "https://images.pokemontcg.io/base4/122_hires.png",
         "set": "Base Set 2"
@@ -13772,6 +13925,9 @@
     {
         "name": "Poké Ball",
         "supertype": "Trainer",
+        "rules": [
+            "Flip a coin. If heads, you may search your deck for any Basic Pokémon or Evolution card. Show that card to your opponent, then put it into your hand. Shuffle your deck afterward."
+        ],
         "rarity": "Common",
         "images": "https://images.pokemontcg.io/base4/121_hires.png",
         "set": "Base Set 2"
@@ -13779,6 +13935,9 @@
     {
         "name": "Bill",
         "supertype": "Trainer",
+        "rules": [
+            "Draw 2 cards."
+        ],
         "rarity": "Common",
         "images": "https://images.pokemontcg.io/base4/118_hires.png",
         "set": "Base Set 2"
@@ -13786,6 +13945,9 @@
     {
         "name": "Energy Removal",
         "supertype": "Trainer",
+        "rules": [
+            "Choose 1 Energy card attached to 1 of your opponent's Pokémon and discard it."
+        ],
         "rarity": "Common",
         "images": "https://images.pokemontcg.io/base4/119_hires.png",
         "set": "Base Set 2"
@@ -13793,6 +13955,9 @@
     {
         "name": "Gust of Wind",
         "supertype": "Trainer",
+        "rules": [
+            "Choose 1 of your opponent's Benched Pokémon and switch it with his or her Active Pokémon."
+        ],
         "rarity": "Common",
         "images": "https://images.pokemontcg.io/base4/120_hires.png",
         "set": "Base Set 2"
@@ -13800,6 +13965,9 @@
     {
         "name": "Switch",
         "supertype": "Trainer",
+        "rules": [
+            "Switch 1 of your Benched Pokémon with your Active Pokémon."
+        ],
         "rarity": "Common",
         "images": "https://images.pokemontcg.io/base4/123_hires.png",
         "set": "Base Set 2"
@@ -13813,6 +13981,9 @@
     {
         "name": "Double Colorless Energy",
         "supertype": "Energy",
+        "rules": [
+            "Provides Colorless Colorless energy. Doesn't count as a basic Energy card."
+        ],
         "rarity": "Uncommon",
         "images": "https://images.pokemontcg.io/base4/124_hires.png",
         "set": "Base Set 2"
@@ -14533,6 +14704,9 @@
     {
         "name": "Here Comes Team Rocket!",
         "supertype": "Trainer",
+        "rules": [
+            "Each player plays with his or her Prize cards face up for the rest of the game."
+        ],
         "rarity": "Rare Holo",
         "images": "https://images.pokemontcg.io/base5/15_hires.png",
         "set": "Team Rocket"
@@ -14540,6 +14714,9 @@
     {
         "name": "Rainbow Energy",
         "supertype": "Energy",
+        "rules": [
+            "Attach Rainbow Energy to 1 of your Pokémon. While in play, Rainbow Energy counts as every type of basic Energy but only provides 1 Energy at a time. (Doesn't count as a basic Energy card when not in play.) When you attach this card from your hand to 1 of your Pokémon, it does 10 damage to that Pokémon. (Don't apply Weakness and Resistance.)"
+        ],
         "rarity": "Rare Holo",
         "images": "https://images.pokemontcg.io/base5/17_hires.png",
         "set": "Team Rocket"
@@ -14547,6 +14724,9 @@
     {
         "name": "Rocket's Sneak Attack",
         "supertype": "Trainer",
+        "rules": [
+            "Look at your opponent's hand. If he or she has any Trainer cards, choose 1 of them. Your opponent shuffles that card into his or her deck."
+        ],
         "rarity": "Rare Holo",
         "images": "https://images.pokemontcg.io/base5/16_hires.png",
         "set": "Team Rocket"
@@ -16962,6 +17142,9 @@
     {
         "name": "Here Comes Team Rocket!",
         "supertype": "Trainer",
+        "rules": [
+            "Each player plays with his or her Prize cards face up for the rest of the game."
+        ],
         "rarity": "Rare",
         "images": "https://images.pokemontcg.io/base5/71_hires.png",
         "set": "Team Rocket"
@@ -17012,6 +17195,9 @@
     {
         "name": "Rocket's Sneak Attack",
         "supertype": "Trainer",
+        "rules": [
+            "Look at your opponent's hand. If he or she has any Trainer cards, choose 1 of them. Your opponent shuffles that card into his or her deck."
+        ],
         "rarity": "Rare",
         "images": "https://images.pokemontcg.io/base5/72_hires.png",
         "set": "Team Rocket"
@@ -17019,6 +17205,9 @@
     {
         "name": "The Boss's Way",
         "supertype": "Trainer",
+        "rules": [
+            "Search your deck for an Evolution card with Dark in its name. Show it to your opponent and put it into your hand. Shuffle your deck afterward."
+        ],
         "rarity": "Uncommon",
         "images": "https://images.pokemontcg.io/base5/73_hires.png",
         "set": "Team Rocket"
@@ -17026,6 +17215,9 @@
     {
         "name": "Challenge!",
         "supertype": "Trainer",
+        "rules": [
+            "Ask your opponent if he or she accepts your challenge. If your opponent declines (or if both Benches are full), draw 2 cards. If your opponent accepts, each of you searches your decks for any number of Basic Pokémon cards and puts them face down onto your Benches. (A player can't do this if his or her Bench is full.) When you both have finished, shuffle your decks and turn those cards face up."
+        ],
         "rarity": "Uncommon",
         "images": "https://images.pokemontcg.io/base5/74_hires.png",
         "set": "Team Rocket"
@@ -17033,6 +17225,9 @@
     {
         "name": "Nightly Garbage Run",
         "supertype": "Trainer",
+        "rules": [
+            "Choose up to 3 Basic Pokémon cards, Evolution cards, and/or basic Energy cards from your discard pile. Show them to your opponent and shuffle them into your deck."
+        ],
         "rarity": "Uncommon",
         "images": "https://images.pokemontcg.io/base5/77_hires.png",
         "set": "Team Rocket"
@@ -17040,6 +17235,9 @@
     {
         "name": "Digger",
         "supertype": "Trainer",
+        "rules": [
+            "Flip a coin. If tails, do 10 damage to your Active Pokémon. If heads, your opponent flips a coin. If tails, your opponent does 10 damage to his or her Active Pokémon. If heads, you flip a coin. Keep doing this until a player gets tails."
+        ],
         "rarity": "Uncommon",
         "images": "https://images.pokemontcg.io/base5/75_hires.png",
         "set": "Team Rocket"
@@ -17047,6 +17245,9 @@
     {
         "name": "Goop Gas Attack",
         "supertype": "Trainer",
+        "rules": [
+            "All Pokémon Powers stop working until the end of your opponent's next turn."
+        ],
         "rarity": "Common",
         "images": "https://images.pokemontcg.io/base5/78_hires.png",
         "set": "Team Rocket"
@@ -17054,6 +17255,9 @@
     {
         "name": "Imposter Oak's Revenge",
         "supertype": "Trainer",
+        "rules": [
+            "Discard a card from your hand in order to play this card. Your opponent shuffles his or her hand into his or her deck, then draws 4 cards."
+        ],
         "rarity": "Uncommon",
         "images": "https://images.pokemontcg.io/base5/76_hires.png",
         "set": "Team Rocket"
@@ -17061,6 +17265,9 @@
     {
         "name": "Sleep!",
         "supertype": "Trainer",
+        "rules": [
+            "Flip a coin. If heads, the Defending Pokémon is now Asleep."
+        ],
         "rarity": "Common",
         "images": "https://images.pokemontcg.io/base5/79_hires.png",
         "set": "Team Rocket"
@@ -17068,6 +17275,9 @@
     {
         "name": "Rainbow Energy",
         "supertype": "Energy",
+        "rules": [
+            "Attach Rainbow Energy to 1 of your Pokémon. While in play, Rainbow Energy counts as every type of basic Energy but only provides 1 Energy at a time. (Doesn't count as a basic Energy card when not in play.) When you attach this card from your hand to 1 of your Pokémon, it does 10 damage to that Pokémon. (Don't apply Weakness and Resistance.)"
+        ],
         "rarity": "Rare",
         "images": "https://images.pokemontcg.io/base5/80_hires.png",
         "set": "Team Rocket"
@@ -17075,6 +17285,10 @@
     {
         "name": "Full Heal Energy",
         "supertype": "Energy",
+        "rules": [
+            "If you play this card from your hand, the Pokémon you attach it to is no longer Asleep, Confused, Paralyzed, or Poisoned.",
+            "Full Heal Energy provides Colorless energy. (Doesn't count as a basic Energy card.)"
+        ],
         "rarity": "Uncommon",
         "images": "https://images.pokemontcg.io/base5/81_hires.png",
         "set": "Team Rocket"
@@ -17082,6 +17296,10 @@
     {
         "name": "Potion Energy",
         "supertype": "Energy",
+        "rules": [
+            "If you play this card from your hand, remove 1 damage counter from the Pokémon you attach it to, if it has any.",
+            "Potion Energy provides Colorless energy. (Doesn't count as a basic Energy card.)"
+        ],
         "rarity": "Uncommon",
         "images": "https://images.pokemontcg.io/base5/82_hires.png",
         "set": "Team Rocket"
@@ -17823,6 +18041,9 @@
     {
         "name": "Computer Error",
         "supertype": "Trainer",
+        "rules": [
+            "You may draw up to 5 cards, then your opponent may draw up to 5 cards. Your turn is over now (you don't get to attack)."
+        ],
         "rarity": "Promo",
         "images": "https://images.pokemontcg.io/basep/16_hires.png",
         "set": "Wizards Black Star Promos"
@@ -18355,6 +18576,9 @@
         "supertype": "Pokémon",
         "level": "5",
         "hp": "30",
+        "rules": [
+            "If this Baby Pokémon is your Active Pokémon and your opponent announces an attack, your opponent flips a coin (before doing anything else). If tails, your opponent's turn ends."
+        ],
         "types": [
             "Colorless"
         ],
@@ -18507,6 +18731,9 @@
         "supertype": "Pokémon",
         "level": "5",
         "hp": "30",
+        "rules": [
+            "If this Baby Pokémon is your Active Pokémon and your opponent announces an attack, your opponent flips a coin (before doing anything else). If tails, your opponent's turn ends."
+        ],
         "types": [
             "Colorless"
         ],
@@ -18629,6 +18856,9 @@
         "supertype": "Pokémon",
         "level": "4",
         "hp": "30",
+        "rules": [
+            "If this Baby Pokémon is your Active Pokémon and your opponent announces an attack, your opponent flips a coin (before doing anything else). If tails, your opponent's turn ends."
+        ],
         "types": [
             "Lightning"
         ],
@@ -18656,6 +18886,9 @@
         "supertype": "Pokémon",
         "level": "17",
         "hp": "40",
+        "rules": [
+            "You may have up to 4 Basic Pokémon cards in your deck with Unown in their names."
+        ],
         "types": [
             "Psychic"
         ],
@@ -18739,6 +18972,9 @@
     {
         "name": "Pokémon Center",
         "supertype": "Trainer",
+        "rules": [
+            "Remove all damage counters from all of your own Pokémon with damage counters on them, then discard all Energy cards attached to those Pokémon."
+        ],
         "rarity": "Promo",
         "images": "https://images.pokemontcg.io/basep/40_hires.png",
         "set": "Wizards Black Star Promos"
@@ -18746,6 +18982,10 @@
     {
         "name": "Lucky Stadium",
         "supertype": "Trainer",
+        "rules": [
+            "This card stays in play when you play it. Discard this card if another Stadium card comes into play.",
+            "Once during each player's turn (before attacking), that player may flip a coin. If heads, that player draws a card."
+        ],
         "rarity": "Promo",
         "images": "https://images.pokemontcg.io/basep/41_hires.png",
         "set": "Wizards Black Star Promos"
@@ -18753,6 +18993,10 @@
     {
         "name": "Pokémon Tower",
         "supertype": "Trainer",
+        "rules": [
+            "This card stays in play when you play it. Discard this card if another Stadium card comes into play.",
+            "If the effect of a Pokémon Power, attack, Energy card, or Trainer card would put a card in a discard pile into its owner's hand, that card stays in that discard pile instead."
+        ],
         "rarity": "Promo",
         "images": "https://images.pokemontcg.io/basep/42_hires.png",
         "set": "Wizards Black Star Promos"
@@ -19915,6 +20159,9 @@
     {
         "name": "Erika",
         "supertype": "Trainer",
+        "rules": [
+            "You may draw up to 3 cards, then your opponent may draw up to 3 cards."
+        ],
         "rarity": "Rare Holo",
         "images": "https://images.pokemontcg.io/gym1/16_hires.png",
         "set": "Gym Heroes"
@@ -19922,6 +20169,9 @@
     {
         "name": "Brock",
         "supertype": "Trainer",
+        "rules": [
+            "Remove 1 damage counter from each of your Pokémon that has any damage counters on it."
+        ],
         "rarity": "Rare Holo",
         "images": "https://images.pokemontcg.io/gym1/15_hires.png",
         "set": "Gym Heroes"
@@ -19929,6 +20179,9 @@
     {
         "name": "Lt. Surge",
         "supertype": "Trainer",
+        "rules": [
+            "You can play this card only if you have at least 1 Basic Pokémon card in your hand. Put a Basic Pokémon card from your hand into play as your Active Pokémon. Put your old Active Pokémon onto your Bench. (You can't play this card if your Bench is full.)"
+        ],
         "rarity": "Rare Holo",
         "images": "https://images.pokemontcg.io/gym1/17_hires.png",
         "set": "Gym Heroes"
@@ -19936,6 +20189,9 @@
     {
         "name": "Misty",
         "supertype": "Trainer",
+        "rules": [
+            "Discard 2 of the other cards in your hand in order to play this card. If this turn's attack does damage to the Defending Pokémon (after applying Weakness and Resistance), and if the attacking Pokémon has Misty in its name, the attack does 20 more damage to the Defending Pokémon."
+        ],
         "rarity": "Rare Holo",
         "images": "https://images.pokemontcg.io/gym1/18_hires.png",
         "set": "Gym Heroes"
@@ -19943,6 +20199,9 @@
     {
         "name": "The Rocket's Trap",
         "supertype": "Trainer",
+        "rules": [
+            "Flip a coin. If heads, choose up to 3 cards at random from your opponent's hand (don't look at them). Your opponent shuffles those cards into his or her deck."
+        ],
         "rarity": "Rare Holo",
         "images": "https://images.pokemontcg.io/gym1/19_hires.png",
         "set": "Gym Heroes"
@@ -23332,6 +23591,9 @@
     {
         "name": "Brock",
         "supertype": "Trainer",
+        "rules": [
+            "Remove 1 damage counter from each of your Pokémon that has any damage counters on it."
+        ],
         "rarity": "Rare",
         "images": "https://images.pokemontcg.io/gym1/98_hires.png",
         "set": "Gym Heroes"
@@ -23339,6 +23601,9 @@
     {
         "name": "Charity",
         "supertype": "Trainer",
+        "rules": [
+            "Attach Charity to your Active Pokémon. Unless that Pokémon gets Knocked Out, return Charity to your hand at the end of your turn. If that Pokémon attacks and does damage to the Defending Pokémon, you may reduce that damage by any amount (rounded to the nearest 10)."
+        ],
         "rarity": "Rare",
         "images": "https://images.pokemontcg.io/gym1/99_hires.png",
         "set": "Gym Heroes"
@@ -23346,6 +23611,9 @@
     {
         "name": "Blaine's Quiz #1",
         "supertype": "Trainer",
+        "rules": [
+            "Put a Basic Pokémon or Evolution card from your hand face down in front of you and tell your opponent its name. Your opponent guesses the length of that Pokémon. Flip the card over. If your opponent guessed right, he or she draws 2 cards. If your opponent guessed wrong, you draw 2 cards. Either way, return the card to your hand."
+        ],
         "rarity": "Rare",
         "images": "https://images.pokemontcg.io/gym1/97_hires.png",
         "set": "Gym Heroes"
@@ -23353,6 +23621,9 @@
     {
         "name": "Erika",
         "supertype": "Trainer",
+        "rules": [
+            "You may draw up to 3 cards, then your opponent may draw up to 3 cards."
+        ],
         "rarity": "Rare",
         "images": "https://images.pokemontcg.io/gym1/100_hires.png",
         "set": "Gym Heroes"
@@ -23360,6 +23631,9 @@
     {
         "name": "Brock's Training Method",
         "supertype": "Trainer",
+        "rules": [
+            "Search your deck for a Basic Pokémon or Evolution card with Brock in its name. Show that card to your opponent, then put it into your hand. Shuffle your deck afterward."
+        ],
         "rarity": "Uncommon",
         "images": "https://images.pokemontcg.io/gym1/106_hires.png",
         "set": "Gym Heroes"
@@ -23367,6 +23641,9 @@
     {
         "name": "Lt. Surge",
         "supertype": "Trainer",
+        "rules": [
+            "You can play this card only if you have at least 1 Basic Pokémon card in your hand. Put a Basic Pokémon card from your hand into play as your Active Pokémon. Put your old Active Pokémon onto your Bench. (You can't play this card if your Bench is full.)"
+        ],
         "rarity": "Rare",
         "images": "https://images.pokemontcg.io/gym1/101_hires.png",
         "set": "Gym Heroes"
@@ -23374,6 +23651,9 @@
     {
         "name": "Misty",
         "supertype": "Trainer",
+        "rules": [
+            "Discard 2 of the other cards in your hand in order to play this card. If this turn's attack does damage to the Defending Pokémon (after applying Weakness and Resistance), and if the attacking Pokémon has Misty in its name, the attack does 20 more damage to the Defending Pokémon."
+        ],
         "rarity": "Rare",
         "images": "https://images.pokemontcg.io/gym1/102_hires.png",
         "set": "Gym Heroes"
@@ -23381,6 +23661,10 @@
     {
         "name": "No Removal Gym",
         "supertype": "Trainer",
+        "rules": [
+            "This card stays in play when you play it. Discard this card if another Stadium card comes into play.",
+            "A player must discard 2 cards from his or her hand in order to play an Energy Removal or Super Energy Removal card."
+        ],
         "rarity": "Rare",
         "images": "https://images.pokemontcg.io/gym1/103_hires.png",
         "set": "Gym Heroes"
@@ -23388,6 +23672,10 @@
     {
         "name": "The Rocket's Training Gym",
         "supertype": "Trainer",
+        "rules": [
+            "This card stays in play when you play it. Discard this card if another Stadium card comes into play.",
+            "Each player pays Colorless more to retreat his or her Active Pokémon."
+        ],
         "rarity": "Rare",
         "images": "https://images.pokemontcg.io/gym1/104_hires.png",
         "set": "Gym Heroes"
@@ -23395,6 +23683,9 @@
     {
         "name": "Blaine's Last Resort",
         "supertype": "Trainer",
+        "rules": [
+            "You can't play this card if you have any cards in your hand other than Blaine's Last Resort. Show your hand to your opponent, then draw 5 cards."
+        ],
         "rarity": "Uncommon",
         "images": "https://images.pokemontcg.io/gym1/105_hires.png",
         "set": "Gym Heroes"
@@ -23402,6 +23693,10 @@
     {
         "name": "Pewter City Gym",
         "supertype": "Trainer",
+        "rules": [
+            "This card stays in play when you play it. Discard this card if another Stadium card comes into play.",
+            "Don't apply Resistance to any attacks made by Pokémon with Brock in their names."
+        ],
         "rarity": "Uncommon",
         "images": "https://images.pokemontcg.io/gym1/115_hires.png",
         "set": "Gym Heroes"
@@ -23409,6 +23704,9 @@
     {
         "name": "Erika's Maids",
         "supertype": "Trainer",
+        "rules": [
+            "Trade 2 of the other cards in your hand for up to 2 Basic Pokémon and/or Evolution cards with Erika in their names from your deck. Show those cards to your opponent, then put them into your hand. Shuffle your deck afterward."
+        ],
         "rarity": "Uncommon",
         "images": "https://images.pokemontcg.io/gym1/109_hires.png",
         "set": "Gym Heroes"
@@ -23416,6 +23714,10 @@
     {
         "name": "Cerulean City Gym",
         "supertype": "Trainer",
+        "rules": [
+            "This card stays in play when you play it. Discard this card if another Stadium card comes into play.",
+            "Each player pays Colorless less to retreat his or her Pokémon if it has Misty in its name."
+        ],
         "rarity": "Uncommon",
         "images": "https://images.pokemontcg.io/gym1/108_hires.png",
         "set": "Gym Heroes"
@@ -23423,6 +23725,9 @@
     {
         "name": "Erika's Perfume",
         "supertype": "Trainer",
+        "rules": [
+            "Look at your opponent's hand. If he or she has any Basic Pokémon cards there, you may put any number of them onto your opponent's Bench (as long as there's room)."
+        ],
         "rarity": "Uncommon",
         "images": "https://images.pokemontcg.io/gym1/110_hires.png",
         "set": "Gym Heroes"
@@ -23430,6 +23735,9 @@
     {
         "name": "Lt. Surge's Treaty",
         "supertype": "Trainer",
+        "rules": [
+            "Your opponent chooses 1 of the following: everyone chooses 1 of his or her own Prizes and put it into his or her hand, or you draw a card."
+        ],
         "rarity": "Uncommon",
         "images": "https://images.pokemontcg.io/gym1/112_hires.png",
         "set": "Gym Heroes"
@@ -23437,6 +23745,9 @@
     {
         "name": "Misty's Wrath",
         "supertype": "Trainer",
+        "rules": [
+            "Look at the top 7 cards of your deck. Choose 2 of those cards and put them into your hand. Discard the rest."
+        ],
         "rarity": "Uncommon",
         "images": "https://images.pokemontcg.io/gym1/114_hires.png",
         "set": "Gym Heroes"
@@ -23444,6 +23755,10 @@
     {
         "name": "Celadon City Gym",
         "supertype": "Trainer",
+        "rules": [
+            "This card stays in play when you play it. Discard this card if another Stadium card comes into play.",
+            "During each player's turn, that player may choose to discard an Energy card attached to 1 of his or her Pokémon with Erika in its name. If that player does so, that Pokémon is no longer Asleep, Confused, Paralyzed, or Poisoned."
+        ],
         "rarity": "Uncommon",
         "images": "https://images.pokemontcg.io/gym1/107_hires.png",
         "set": "Gym Heroes"
@@ -23451,6 +23766,9 @@
     {
         "name": "Good Manners",
         "supertype": "Trainer",
+        "rules": [
+            "In order to play this card, you can't have any Basic Pokémon cards in your hand. Show your hand to your opponent, then search your deck for a Basic Pokémon card, show it to your opponent, and put it into your hand. Shuffle your deck afterward."
+        ],
         "rarity": "Uncommon",
         "images": "https://images.pokemontcg.io/gym1/111_hires.png",
         "set": "Gym Heroes"
@@ -23458,6 +23776,9 @@
     {
         "name": "Minion of Team Rocket",
         "supertype": "Trainer",
+        "rules": [
+            "Flip 2 coins. If both of them are heads, choose 1 of your opponent's Benched Pokémon and return it and all cards attached to it to his or her hand. If 1 or both of them are tails, your turn ends immediately (you can't attack this turn)."
+        ],
         "rarity": "Uncommon",
         "images": "https://images.pokemontcg.io/gym1/113_hires.png",
         "set": "Gym Heroes"
@@ -23465,6 +23786,9 @@
     {
         "name": "Recall",
         "supertype": "Trainer",
+        "rules": [
+            "For your attack this turn, your Active Pokémon can use any attack from its Basic Pokémon card or any Evolution card attached to it. (You still have to pay for that attack's Energy cost.)"
+        ],
         "rarity": "Uncommon",
         "images": "https://images.pokemontcg.io/gym1/116_hires.png",
         "set": "Gym Heroes"
@@ -23472,6 +23796,9 @@
     {
         "name": "Sabrina's ESP",
         "supertype": "Trainer",
+        "rules": [
+            "Attach Sabrina's ESP to 1 of your Pokémon with Sabrina in its name. At the end of your turn, discard Sabrina's ESP. If that Pokémon uses and attack that involves flipping coins, Sabrina's ESP lets you re-flip those coins once. If you do, re-flip all the coins."
+        ],
         "rarity": "Uncommon",
         "images": "https://images.pokemontcg.io/gym1/117_hires.png",
         "set": "Gym Heroes"
@@ -23479,6 +23806,9 @@
     {
         "name": "Secret Mission",
         "supertype": "Trainer",
+        "rules": [
+            "Look at your opponent's hand. Then, you may discard as many other cards as you want from your hand and draw that many cards."
+        ],
         "rarity": "Uncommon",
         "images": "https://images.pokemontcg.io/gym1/118_hires.png",
         "set": "Gym Heroes"
@@ -23486,6 +23816,9 @@
     {
         "name": "Tickling Machine",
         "supertype": "Trainer",
+        "rules": [
+            "Flip a coin. If heads, your opponent sets aside all the cards in his or her hand face down. Nobody may look at those cards. At the end of your opponent's next turn, your opponent puts those cards back into his or her hand. If tails, your turn ends immediately (you can't attack this turn)."
+        ],
         "rarity": "Uncommon",
         "images": "https://images.pokemontcg.io/gym1/119_hires.png",
         "set": "Gym Heroes"
@@ -23493,6 +23826,10 @@
     {
         "name": "Vermilion City Gym",
         "supertype": "Trainer",
+        "rules": [
+            "This card stays in play when you play it. Discard this card if another Stadium card comes into play.",
+            "Whenever a player attacks with a Pokémon with Lt. Surge in its name, he or she may flip a coin. If heads, and if that Pokémon's attack does damage to the Defending Pokémon (after applying Weakness and Resistance), that attack does 10 more damage to the Defending Pokémon. If tails, the attacking Pokémon does 10 damage to itself in addition to whatever its attack usually does."
+        ],
         "rarity": "Uncommon",
         "images": "https://images.pokemontcg.io/gym1/120_hires.png",
         "set": "Gym Heroes"
@@ -23500,6 +23837,9 @@
     {
         "name": "Misty's Duel",
         "supertype": "Trainer",
+        "rules": [
+            "You and your opponent play a game of Rock-Paper-Scissors. The winner shuffles his or her hand into his or her deck and draws a new hand of 5 cards. (If you don't know how to play Rock-Paper-Scissors, flip a coin to decide who's the winner.)"
+        ],
         "rarity": "Common",
         "images": "https://images.pokemontcg.io/gym1/123_hires.png",
         "set": "Gym Heroes"
@@ -23507,6 +23847,9 @@
     {
         "name": "Sabrina's Gaze",
         "supertype": "Trainer",
+        "rules": [
+            "Each player shuffles his or her hand into his or her deck and draws a new hand of the same number of cards."
+        ],
         "rarity": "Common",
         "images": "https://images.pokemontcg.io/gym1/125_hires.png",
         "set": "Gym Heroes"
@@ -23514,6 +23857,9 @@
     {
         "name": "Energy Flow",
         "supertype": "Trainer",
+        "rules": [
+            "For each of your Pokémon, you may return any number of Energy cards attached to it to your hand."
+        ],
         "rarity": "Common",
         "images": "https://images.pokemontcg.io/gym1/122_hires.png",
         "set": "Gym Heroes"
@@ -23521,6 +23867,9 @@
     {
         "name": "Blaine's Gamble",
         "supertype": "Trainer",
+        "rules": [
+            "Discard any number of other cards from your hand, then flip a coin. If heads, draw twice that many cards."
+        ],
         "rarity": "Common",
         "images": "https://images.pokemontcg.io/gym1/121_hires.png",
         "set": "Gym Heroes"
@@ -23528,6 +23877,10 @@
     {
         "name": "Narrow Gym",
         "supertype": "Trainer",
+        "rules": [
+            "This card stays in play when you play it. Discard this card if another Stadium card comes into play.",
+            "No player may have more than 4 Pokémon on his or her Bench. When this card is played, if a player has 5 Pokémon on his or her Bench, that player chooses 1 of them and returns it and all cards attached to it to his or her hand. (If both players have to return a Pokémon, your opponent returns a Pokémon first.)"
+        ],
         "rarity": "Common",
         "images": "https://images.pokemontcg.io/gym1/124_hires.png",
         "set": "Gym Heroes"
@@ -23559,6 +23912,9 @@
     {
         "name": "Trash Exchange",
         "supertype": "Trainer",
+        "rules": [
+            "Count the number of cards in your discard pile and shuffle them into your deck. Then discard that many cards from the top of your deck."
+        ],
         "rarity": "Common",
         "images": "https://images.pokemontcg.io/gym1/126_hires.png",
         "set": "Gym Heroes"
@@ -24308,6 +24664,9 @@
     {
         "name": "Giovanni",
         "supertype": "Trainer",
+        "rules": [
+            "Choose 1 of your Pokémon in play with Giovanni in its name. For the rest of your turn, you may evolve that Pokémon even if you just played or evolved it this turn or if this is your first turn. This effect also applies to the Pokémon it evolves into."
+        ],
         "rarity": "Rare Holo",
         "images": "https://images.pokemontcg.io/gym2/18_hires.png",
         "set": "Gym Challenge"
@@ -24315,6 +24674,9 @@
     {
         "name": "Blaine",
         "supertype": "Trainer",
+        "rules": [
+            "During this turn, instead of attaching your free Energy card, you may instead attach 2 Fire Energy cards to 1 of your Pokémon with Blaine in its name. (Playing additional copies of this card this turn has no effect.)"
+        ],
         "rarity": "Rare Holo",
         "images": "https://images.pokemontcg.io/gym2/17_hires.png",
         "set": "Gym Challenge"
@@ -24371,6 +24733,9 @@
     {
         "name": "Sabrina",
         "supertype": "Trainer",
+        "rules": [
+            "Take all Energy cards attached to 1 of your Pokémon with Sabrina in its name and attach them to another 1 of your Pokémon with Sabrina in its name."
+        ],
         "rarity": "Rare Holo",
         "images": "https://images.pokemontcg.io/gym2/20_hires.png",
         "set": "Gym Challenge"
@@ -24378,6 +24743,9 @@
     {
         "name": "Koga",
         "supertype": "Trainer",
+        "rules": [
+            "If an attack from a Pokémon with Koga in its name does damage to a Defending Pokémon this turn, that Pokémon is then Poisoned."
+        ],
         "rarity": "Rare Holo",
         "images": "https://images.pokemontcg.io/gym2/19_hires.png",
         "set": "Gym Challenge"
@@ -27786,6 +28154,9 @@
     {
         "name": "Brock's Protection",
         "supertype": "Trainer",
+        "rules": [
+            "Attach Brock's Protection to 1 of your Pokémon with Brock in its name. Energy cards attached to that Pokémon can't be removed by your opponent's attacks or Trainer cards. (This doesn't stop the rest of the attack or Trainer card from working normally.)"
+        ],
         "rarity": "Rare",
         "images": "https://images.pokemontcg.io/gym2/101_hires.png",
         "set": "Gym Challenge"
@@ -27793,6 +28164,9 @@
     {
         "name": "Erika's Kindness",
         "supertype": "Trainer",
+        "rules": [
+            "Remove 2 damage counters from each Pokémon (yours and your opponent's) with any damage counters on it. If a Pokémon has just 1 damage counter, remove it."
+        ],
         "rarity": "Rare",
         "images": "https://images.pokemontcg.io/gym2/103_hires.png",
         "set": "Gym Challenge"
@@ -27800,6 +28174,9 @@
     {
         "name": "Blaine",
         "supertype": "Trainer",
+        "rules": [
+            "During this turn, instead of attaching your free Energy card, you may instead attach 2 Fire Energy cards to 1 of your Pokémon with Blaine in its name. (Playing additional copies of this card this turn has no effect.)"
+        ],
         "rarity": "Rare",
         "images": "https://images.pokemontcg.io/gym2/100_hires.png",
         "set": "Gym Challenge"
@@ -27898,6 +28275,10 @@
     {
         "name": "Chaos Gym",
         "supertype": "Trainer",
+        "rules": [
+            "This card stays in play after being played. Discard this card if another Stadium card comes into play.",
+            "Whenever a player plays a Trainer card other than a Stadium card, he or she flips a coin. If heads, that player plays that card normally. If tails, the player can't play that card. If the card isn't put into play, the player's opponent may use that card instead, if he or she does everything required in order to play that card (like discarding cards). Either way, the card goes to its owner's discard pile."
+        ],
         "rarity": "Rare",
         "images": "https://images.pokemontcg.io/gym2/102_hires.png",
         "set": "Gym Challenge"
@@ -27905,6 +28286,9 @@
     {
         "name": "Giovanni's Last Resort",
         "supertype": "Trainer",
+        "rules": [
+            "Remove all damage counters from 1 of your Pokémon with Giovanni in its name. Then discard your hand."
+        ],
         "rarity": "Rare",
         "images": "https://images.pokemontcg.io/gym2/105_hires.png",
         "set": "Gym Challenge"
@@ -27912,6 +28296,9 @@
     {
         "name": "Lt. Surge's Secret Plan",
         "supertype": "Trainer",
+        "rules": [
+            "Put 1 card from your hand face down onto your Bench. (You can't play this card if your Bench is full.) Treat that card as a Basic Pokémon as long as it's face down. Flip the card if either player needs to know what it is in order to use an attack, a Pokémon Power, or a Trainer card. Flip the card if it ever uses an attack or Pokémon Power, evolves, retreats, is damaged by an attack, or is otherwise affected by an attack. At any time during your turn, you may flip the card over. When you flip that card over, if it isn't a Basic Pokémon, discard it and all cards attached to it."
+        ],
         "rarity": "Rare",
         "images": "https://images.pokemontcg.io/gym2/107_hires.png",
         "set": "Gym Challenge"
@@ -27919,6 +28306,9 @@
     {
         "name": "Giovanni",
         "supertype": "Trainer",
+        "rules": [
+            "Choose 1 of your Pokémon in play with Giovanni in its name. For the rest of your turn, you may evolve that Pokémon even if you just played or evolved it this turn or if this is your first turn. This effect also applies to the Pokémon it evolves into."
+        ],
         "rarity": "Rare",
         "images": "https://images.pokemontcg.io/gym2/104_hires.png",
         "set": "Gym Challenge"
@@ -27926,6 +28316,9 @@
     {
         "name": "Koga",
         "supertype": "Trainer",
+        "rules": [
+            "If an attack from a Pokémon with Koga in its name does damage to a Defending Pokémon this turn, that Pokémon is then Poisoned."
+        ],
         "rarity": "Rare",
         "images": "https://images.pokemontcg.io/gym2/106_hires.png",
         "set": "Gym Challenge"
@@ -27933,6 +28326,9 @@
     {
         "name": "Misty's Wish",
         "supertype": "Trainer",
+        "rules": [
+            "Look at 1 of your Prize cards. Then, ask your opponent if you may switch that card with 1 of the cards in your hand. If your opponent accepts and if you have any other cards in your hand, switch those cards. If your opponent declines, return the Prize card face down and draw a card."
+        ],
         "rarity": "Rare",
         "images": "https://images.pokemontcg.io/gym2/108_hires.png",
         "set": "Gym Challenge"
@@ -27940,6 +28336,10 @@
     {
         "name": "Resistance Gym",
         "supertype": "Trainer",
+        "rules": [
+            "This card stays in play after being played. Discard this card if another Stadium card comes into play.",
+            "Each Pokémon's Resistance is reduced by 20. (If a Pokémon's Resistance is -30, it becomes -10.)"
+        ],
         "rarity": "Rare",
         "images": "https://images.pokemontcg.io/gym2/109_hires.png",
         "set": "Gym Challenge"
@@ -27947,6 +28347,9 @@
     {
         "name": "Sabrina",
         "supertype": "Trainer",
+        "rules": [
+            "Take all Energy cards attached to 1 of your Pokémon with Sabrina in its name and attach them to another 1 of your Pokémon with Sabrina in its name."
+        ],
         "rarity": "Rare",
         "images": "https://images.pokemontcg.io/gym2/110_hires.png",
         "set": "Gym Challenge"
@@ -27954,6 +28357,9 @@
     {
         "name": "Blaine's Quiz #2",
         "supertype": "Trainer",
+        "rules": [
+            "Put a card from your hand face down in front of you. Your opponent guesses whether it is an Energy card, a Trainer card, or a Pokémon (Basic or Evolution) card. Flip the card over. If your opponent guessed right, he or she draws 2 cards. If your opponent guessed wrong, you draw 2 cards. Either way, return the card to your hand."
+        ],
         "rarity": "Uncommon",
         "images": "https://images.pokemontcg.io/gym2/111_hires.png",
         "set": "Gym Challenge"
@@ -27961,6 +28367,9 @@
     {
         "name": "Blaine's Quiz #3",
         "supertype": "Trainer",
+        "rules": [
+            "Put a Basic or Evolution card from your hand face down in front of you and tell your opponent the name of an attack of that card. Your opponent guesses the name of that card. Flip the card over. If your opponent guessed right, he or she draws 3 cards. If your opponent guessed wrong, you draw 3 cards. Either way, return the card to your hand."
+        ],
         "rarity": "Uncommon",
         "images": "https://images.pokemontcg.io/gym2/112_hires.png",
         "set": "Gym Challenge"
@@ -27968,6 +28377,10 @@
     {
         "name": "Cinnabar City Gym",
         "supertype": "Trainer",
+        "rules": [
+            "This card stays in play after being played. Discard this card if another Stadium card comes into play.",
+            "Ignore Weakness when a Water Pokémon does damage to a Pokémon with Blaine in its name."
+        ],
         "rarity": "Uncommon",
         "images": "https://images.pokemontcg.io/gym2/113_hires.png",
         "set": "Gym Challenge"
@@ -27975,6 +28388,10 @@
     {
         "name": "Fuchsia City Gym",
         "supertype": "Trainer",
+        "rules": [
+            "This card stays in play after being played. Discard this card if another Stadium card comes into play.",
+            "Once during each player's turn (before attacking), that player may flip a coin. If heads, that player may shuffle 1 of his or her Pokémon in play with Koga in its name and any cards attached to it into his or her deck."
+        ],
         "rarity": "Uncommon",
         "images": "https://images.pokemontcg.io/gym2/114_hires.png",
         "set": "Gym Challenge"
@@ -27982,6 +28399,9 @@
     {
         "name": "Koga's Ninja Trick",
         "supertype": "Trainer",
+        "rules": [
+            "Attach Koga's Ninja Trick to your Active Pokémon with Koga in its name. If this Pokémon goes to your Bench, discard this card. When your opponent attacks, you may switch this Pokémon with 1 of your Benched Pokémon (before damage or other effects of attacks)."
+        ],
         "rarity": "Uncommon",
         "images": "https://images.pokemontcg.io/gym2/115_hires.png",
         "set": "Gym Challenge"
@@ -27989,6 +28409,9 @@
     {
         "name": "Master Ball",
         "supertype": "Trainer",
+        "rules": [
+            "Look at 7 cards from the top of your deck. You may choose a Basic Pokémon or Evolution card from those cards, show it to your opponent, then put it into your hand. Shuffle the rest into your deck."
+        ],
         "rarity": "Uncommon",
         "images": "https://images.pokemontcg.io/gym2/116_hires.png",
         "set": "Gym Challenge"
@@ -27996,6 +28419,9 @@
     {
         "name": "Max Revive",
         "supertype": "Trainer",
+        "rules": [
+            "Discard 2 Energy cards from your hand in order to put 1 Basic Pokémon from your discard pile onto your Bench. (You can't play Max Revive if your Bench is full.)"
+        ],
         "rarity": "Uncommon",
         "images": "https://images.pokemontcg.io/gym2/117_hires.png",
         "set": "Gym Challenge"
@@ -28003,6 +28429,10 @@
     {
         "name": "Rocket's Minefield Gym",
         "supertype": "Trainer",
+        "rules": [
+            "This card stays in play after being played. Discard this card if another Stadium card comes into play.",
+            "Whenever a player puts a Basic Pokémon onto his or her Bench from his or her hand, he or she flips a coin. If tails, put damage counters on that Pokémon."
+        ],
         "rarity": "Uncommon",
         "images": "https://images.pokemontcg.io/gym2/119_hires.png",
         "set": "Gym Challenge"
@@ -28010,6 +28440,9 @@
     {
         "name": "Misty's Tears",
         "supertype": "Trainer",
+        "rules": [
+            "Discard 1 of the other cards in your hand in order to search your deck for up to 2 Water Energy cards. Show those cards to your opponent, then put them into your hand. Shuffle your deck afterward."
+        ],
         "rarity": "Uncommon",
         "images": "https://images.pokemontcg.io/gym2/118_hires.png",
         "set": "Gym Challenge"
@@ -28017,6 +28450,10 @@
     {
         "name": "Saffron City Gym",
         "supertype": "Trainer",
+        "rules": [
+            "This card stays in play after being played. Discard this card if another Stadium card comes into play.",
+            "As often as each player like during his or her turn (before attacking), that player may return 1 basic Energy card attached to 1 of his or her Pokémon with Sabrina in its name to his or her hand."
+        ],
         "rarity": "Uncommon",
         "images": "https://images.pokemontcg.io/gym2/122_hires.png",
         "set": "Gym Challenge"
@@ -28024,6 +28461,9 @@
     {
         "name": "Rocket's Secret Experiment",
         "supertype": "Trainer",
+        "rules": [
+            "Flip a coin. If heads, search your deck for any card and put it into your hand. Shuffle your deck afterward. If tails, you can't play Trainer cards until the end of your next turn."
+        ],
         "rarity": "Uncommon",
         "images": "https://images.pokemontcg.io/gym2/120_hires.png",
         "set": "Gym Challenge"
@@ -28031,6 +28471,9 @@
     {
         "name": "Sabrina's Psychic Control",
         "supertype": "Trainer",
+        "rules": [
+            "Flip a coin. If heads, choose a Trainer card in your opponent's discard pile that isn't put in play (like PlusPower or Mysterious Fossil). You may use that card as if it were in your hand, if you do everything required in order to play that card (like discarding cards). The card stays in your opponent's discard pile."
+        ],
         "rarity": "Uncommon",
         "images": "https://images.pokemontcg.io/gym2/121_hires.png",
         "set": "Gym Challenge"
@@ -28038,6 +28481,9 @@
     {
         "name": "Fervor",
         "supertype": "Trainer",
+        "rules": [
+            "Show the top 3 cards of your deck to all players. Put any Fire Energy cards there into your hand and discard the rest."
+        ],
         "rarity": "Common",
         "images": "https://images.pokemontcg.io/gym2/124_hires.png",
         "set": "Gym Challenge"
@@ -28045,6 +28491,10 @@
     {
         "name": "Viridian City Gym",
         "supertype": "Trainer",
+        "rules": [
+            "This card stays in play after being played. Discard this card if another Stadium card comes into play.",
+            "Whenever a Pokémon with Giovanni in its name evolves, its owner removes 2 damage counters from that Pokémon (or 1 if it only has 1)."
+        ],
         "rarity": "Uncommon",
         "images": "https://images.pokemontcg.io/gym2/123_hires.png",
         "set": "Gym Challenge"
@@ -28052,6 +28502,9 @@
     {
         "name": "Transparent Walls",
         "supertype": "Trainer",
+        "rules": [
+            "Until the end of your opponent's next turn, prevent all damage from attacks done to your Benched Pokémon. (Any other effects of attacks still happen.)"
+        ],
         "rarity": "Common",
         "images": "https://images.pokemontcg.io/gym2/125_hires.png",
         "set": "Gym Challenge"
@@ -28059,6 +28512,9 @@
     {
         "name": "Warp Point",
         "supertype": "Trainer",
+        "rules": [
+            "If your opponent has any Benched Pokémon, he or she chooses 1 of them and switches it with his or her Active Pokémon, then, if you have any Benched Pokémon, you switch 1 of them with your Active Pokémon."
+        ],
         "rarity": "Common",
         "images": "https://images.pokemontcg.io/gym2/126_hires.png",
         "set": "Gym Challenge"

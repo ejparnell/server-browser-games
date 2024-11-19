@@ -51,6 +51,7 @@ async function handleGetData() {
             supertype: item.supertype,
             level: item.level,
             hp: item.hp,
+            rules: item.rules,
             types: item.types,
             evolvesFrom: item.evolvesFrom,
             abilities: item.abilities,

@@ -1,26 +1,25 @@
 const express = require('express')
 const router = express.Router()
+const getUser = require('../middleware/getUser')
 
 const Binder = require('../models/binder')
 
-router.get('/:userId', async (req, res) => {
+router.get('/', getUser, async (req, res) => {
     try {
-        console.log('hit')
-        const binders = await Binder.find({ user: req.params.userId }).populate('cards')
+        const binders = await Binder.find({ user: req.user._id }).populate('cards')
         res.send(binders)
     } catch (error) {
         res.status(500).send({ message: error.message })
     }
 })
 
-router.post('/:userId/add-booster-pack', async (req, res) => {
-    console.log(req.body)
+router.post('/', getUser, async (req, res) => {
+    const { card } = req.body
     try {
-        const binder = await Binder.find({ user: req.params.userId })
-        res.send(`${req.body.name} added to binder`)
+        const binder = await Binder.updateOne({ user: req.user._id }, { $push: { cards: { $each: card } } })
+        res.send(binder)
     } catch (error) {
-        console.log(error)
-        res.status(500).send({ message: error.message })
+        res.status(400).send({ message: error.message })
     }
 })
 

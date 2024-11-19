@@ -7,6 +7,7 @@ const mongoose = require('mongoose')
 const usersRouter = require('./routers/users')
 const pokemonRouter = require('./routers/pokemon')
 const binderRouter = require('./routers/binders')
+const boosterPackRouter = require('./routers/boosterPacks')
 const seedRouter = require('./seed')
 
 const PORT = process.env.PORT ? process.env.PORT : 3000
@@ -17,12 +18,13 @@ mongoose.connection.on('connected', () => {
   console.log(`Connected to MongoDB ${mongoose.connection.name}.`)
 })
 
-app.use(cors({ origin: 'http://localhost:5173' }))
+app.use(cors({ origin: 'http://localhost:5173', credentials: true }))
 app.use(express.json())
 
 app.use('/users', usersRouter)
 app.use('/pokemon', pokemonRouter)
 app.use('/binders', binderRouter)
+app.use('/booster-packs', boosterPackRouter)
 app.use('/seed', seedRouter)
 
 app.listen(PORT, () => {
