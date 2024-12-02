@@ -5,20 +5,6 @@ const PokemonCard = require('../models/card')
 const Binder = require('../models/binder')
 const createBoosterPack = require('../middleware/createAPack')
 
-// TODO: need to handle promo packs differently
-router.get('/:userId/:boosterPack', async (req, res) => {
-    try {
-        const boosterPack = await PokemonCard.find({ set: req.params.boosterPack })
-        const energy = await PokemonCard.find({ supertype: 'Energy' })
-        const boughtPack = createBoosterPack(boosterPack, energy)
-        const cardIds = boughtPack.map(card => card._id)
-        await Binder.updateOne({ user: req.params.userId }, { $push: { cards: { $each: cardIds } } })
-        res.send({ boughtPack })
-    } catch (error) {
-        res.send({ message: error.message })
-    }
-})
-
 router.get('/', async (req, res) => {
     try {
         const cards = await PokemonCard.find({})
@@ -39,6 +25,21 @@ router.get('/search', async (req, res) => {
         res.send(cards)
     } catch (error) {
         res.send({ message: error.message })
+    }
+})
+
+router.post('/deck-pokemon', async (req, res) => {
+    try {
+        const { names } = req.body
+
+        if (!Array.isArray(names) || names.length === 0) {
+            return res.status(400).send({ message: 'Please provide an array of Pokémon names.' })
+        }
+
+        const pokemonData = await PokemonCard.find({ name: { $in: names } })
+        res.status(200).json(pokemonData);
+    } catch (error) {
+        res.status(500).send({ message: 'Internal Server Error' })
     }
 })
 
