@@ -1,6 +1,5 @@
 const Deck = require('./models/deck')
 
-// waterDeck - done
 // Pokémon (20)
 // Squirtle (4x) - Basic Pokémon
 // Wartortle (3x) - Stage 1 Evolution of Squirtle
@@ -202,26 +201,8 @@ const waterDeck = [
 async function handleBuildDeck() {
 
     const cards = [
-        '673ba2be512658ebe992ab36', // Charizard
-        '673ba2be512658ebe992ab36',
-        '673ba2be512658ebe992ae98', // Charmeleon
-        '673ba2be512658ebe992ae98',
-        '673ba2be512658ebe992ae98',
-        '673ba2be512658ebe992abdc', // Charmander
-        '673ba2be512658ebe992abdc',
-        '673ba2be512658ebe992abdc',
-        '673ba2be512658ebe992abdc',
-        '673ba2be512658ebe992ae4e', // Ninetales
-        '673ba2be512658ebe992ae4e',
-        '673ba2be512658ebe992ac29', // Vulpix
-        '673ba2be512658ebe992ac29',
-        '673ba2be512658ebe992ac29',
-        '673ba2be512658ebe992aea0', // Arcanine
-        '673ba2be512658ebe992aea0',
-        '673ba2be512658ebe992ab9a', // Growlithe
-        '673ba2be512658ebe992ab9a',
-        '673ba2be512658ebe992ab9a',
-        '673ba2be512658ebe992adcf', // Magmar
+        
+                
     ]
 
     try {

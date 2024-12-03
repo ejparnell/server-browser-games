@@ -8,6 +8,7 @@ const usersRouter = require('./routers/users')
 const pokemonRouter = require('./routers/pokemon')
 const binderRouter = require('./routers/binders')
 const boosterPackRouter = require('./routers/boosterPacks')
+const deckRouter = require('./routers/decks')
 const seedRouter = require('./seed')
 
 const PORT = process.env.PORT ? process.env.PORT : 3000
@@ -25,6 +26,7 @@ app.use('/users', usersRouter)
 app.use('/pokemon', pokemonRouter)
 app.use('/binders', binderRouter)
 app.use('/booster-packs', boosterPackRouter)
+app.use('/decks', deckRouter)
 app.use('/seed', seedRouter)
 
 app.listen(PORT, () => {

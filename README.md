@@ -40,6 +40,35 @@ User
 /signin - Sign in to an account
 /signout - Sign out of an account
 
+Buy Cards
+    Buy Booster Packs
+        See all Booster Packs
+        See stats on Booster Packs
+            See high cards
+            See how many cards you have already from this pack
+    Buy Decks
+        See all Decks
+        See stats on Decks
+            Indicate if you can build this deck without buying
+
+See Cards
+    See all cards
+    See your cards highlighted - quantity bubble
+    See cards you don't have greyed out
+        Button to buy booster pack that might have it
+
+Trade Cards
+    See available trades
+    Post a trade
+
+Deck Building
+    See all decks
+    See your decks
+    Build a deck
+
+Battle
+    Battle with a deck
+
 general actions
 As a user I want to sign up for an account
 As a user if I signed up for an account I want to be automatically signed in
@@ -47,8 +76,14 @@ As a user I want to be able to sign in to an account
 As a user I want to be able to sign out of an account
 
 singed in actions
-As a signed in user I want to be able to see all Pokemon
+As a signed in user I want to be able to see all Pokemon cards
     As a user I want to see an ordered list of Pokemon, followed by Trainers, followed by Energy
+        Owned cards are highlighted - including quantity bubble
+        Not owned cards are greyed out - button to buy pack where it is located
+    
+    As a signed in user I want to be able to buy a booster pack
+        I want to see a list of all booster packs
+
     As a signed in user I want to be able to search for Pokemon
         Search on rarity, type, name, number
 As a signed in user I want to be able to see more information about a Pokemon
@@ -72,3 +107,5 @@ As a signed in user I wantt to be shown decks that I can build
 As a signed in user I want to be able to create a Deck
 As a signed in user I want to be able to remove a Deck
 As a signed in user I want to be able to update a Deck
+
+Trade actions
